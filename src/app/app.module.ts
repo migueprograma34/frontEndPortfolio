@@ -8,6 +8,7 @@ import { LogoPagComponent } from './componentes/logo-pag/logo-pag.component';
 import { SocialMediaComponent } from './componentes/social-media/social-media.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
+import { ExperienceComponent } from './componentes/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
     LogoPagComponent,
     SocialMediaComponent,
     BannerComponent,
-    EncabezadoComponent
+    EncabezadoComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
