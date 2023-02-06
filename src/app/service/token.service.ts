@@ -16,7 +16,7 @@ window.sessionStorage.setItem(TOKEN_KEY, token);
   public getToken(): string {
    return sessionStorage.getItem(TOKEN_KEY)!;
   }
-  public setUserName(userName:string):void{
+  public setUserName(userName:string): void{
     window.sessionStorage.removeItem(USERNAME_KEY);
     window.sessionStorage.setItem(USERNAME_KEY, userName);
   }
@@ -31,7 +31,7 @@ window.sessionStorage.setItem(TOKEN_KEY, token);
   public getAuthorities():string[]{
     this.roles = [];
     if(sessionStorage.getItem(AUTHORITIES_KEY)){
-      JSON.parse(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority : any) => { this.roles.push(authority.authority);
+    JSON.parse(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority : any) => { this.roles.push(authority.authority);
     });
    }
     return this.roles;
