@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL: ''
+  URL: 'https://backendmigue.onrender.com'
 };
