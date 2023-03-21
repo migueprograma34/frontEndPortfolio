@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Dist/migue",
+    "public": "dist/migue-porf",
     "ignore": [
       "firebase.json",
       "**/.*",

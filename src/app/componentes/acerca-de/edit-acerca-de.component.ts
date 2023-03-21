@@ -25,6 +25,7 @@ this.personaService.detail(id).subscribe(
 )}
 onUpdate(): void{
   const id = this.activatedRouter.snapshot.params['id'];
+  this.persona.img = this.imageService.url
     this.personaService.update(id, this.persona).subscribe(
       data => {
         this.router.navigate(['']);
