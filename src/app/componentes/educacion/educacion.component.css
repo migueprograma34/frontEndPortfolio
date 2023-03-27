@@ -7,3 +7,7 @@ div{
 h1,h3{
     display: inline;
 }
+.table>:not(caption)>*>* {
+    display: inline-grid;
+    border-bottom-width: inherit;
+}
