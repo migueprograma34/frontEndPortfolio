@@ -12,3 +12,7 @@ h1,h3{
     display: inline-grid;
     border-bottom-width: inherit;
 }}
+@media(min-width: 576px){
+    .table>:not(caption)>*>* {
+        border-bottom-width: inherit;}
+    }
